@@ -1,0 +1,402 @@
+timestamp,message
+1739469967056,"Starting malware scan on bucket: testing-malware-scan-bucket
+"
+1739469967056,"Processing all files in bucket: testing-malware-scan-bucket
+"
+1739469967056,"Listing files in bucket: testing-malware-scan-bucket
+"
+1739469967110,"Files in bucket: ['120816daada4aeb05da2ee888fe52f25c37b7aba3915da8534904b8247c8526b.exe', '1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50.exe', '1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50.exe (2)', '220c50ccf6a9d9727e9f442df42469f027d9f7a2ea833319971746280023bb0c.exe', '83ad319279941b4fb21ba7ba1a0558e0770ddc21521665757810ecb0222b8f5a.exe', '850a2090e3dd9c23f4777035a6e98a4ecbfd305b380c16645cf5d5a48dbd062b.exe', '8f94159f886da37cbed0ea9b30219e2f4f139d67a7040465e8c76bb6c1b639ba.exe', 'b5b2249413d21165cebf03c86e08d9b1e711e4e8617196e9c6f124a1632958fe.exe', 'd98bdf3508763fe0df177ef696f5bf8de7ff7c7dc68bb04a14a95ec28528c3f9.exe', 'df90e36ead46dcff6b6235a71ef05f6ca52250f432ddb46a4a0b8b9142660ba3.exe', 'e2b03931b8adf597caceb14e8b3016586fc91e296d34b2395ed2da140a9b6343.exe', 'e58b80e4738dc03f5aa82d3a40a6d2ace0d7c7cfd651f1dd10df76d43d8c0eb3.exe']
+"
+1739469967110,"Processing file: 120816daada4aeb05da2ee888fe52f25c37b7aba3915da8534904b8247c8526b.exe
+"
+1739469967110,"Downloading file: 120816daada4aeb05da2ee888fe52f25c37b7aba3915da8534904b8247c8526b.exe from bucket: testing-malware-scan-bucket
+"
+1739469967178,"File hash (SHA256): 120816daada4aeb05da2ee888fe52f25c37b7aba3915da8534904b8247c8526b
+"
+1739469967178,"Checking hash 120816daada4aeb05da2ee888fe52f25c37b7aba3915da8534904b8247c8526b against VirusTotal...
+"
+1739469967343,"VirusTotal response: 51 malicious detections
+"
+1739469967343,"Moving malicious file 120816daada4aeb05da2ee888fe52f25c37b7aba3915da8534904b8247c8526b.exe to quarantine: quarantine/120816daada4aeb05da2ee888fe52f25c37b7aba3915da8534904b8247c8526b.exe
+"
+1739469967370,"Error processing file 120816daada4aeb05da2ee888fe52f25c37b7aba3915da8534904b8247c8526b.exe: An error occurred (AccessDenied) when calling the CopyObject operation: Access Denied
+"
+1739469967370,"Processing file: 1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50.exe
+"
+1739469967370,"Downloading file: 1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50.exe from bucket: testing-malware-scan-bucket
+"
+1739469967409,"File hash (SHA256): 1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50
+"
+1739469967409,"Checking hash 1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50 against VirusTotal...
+"
+1739469967565,"VirusTotal response: 48 malicious detections
+"
+1739469967565,"Moving malicious file 1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50.exe to quarantine: quarantine/1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50.exe
+"
+1739469967585,"Error processing file 1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50.exe: An error occurred (AccessDenied) when calling the CopyObject operation: Access Denied
+"
+1739469967585,"Processing file: 1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50.exe (2)
+"
+1739469967585,"Downloading file: 1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50.exe (2) from bucket: testing-malware-scan-bucket
+"
+1739469967627,"File hash (SHA256): 1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50
+"
+1739469967627,"Checking hash 1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50 against VirusTotal...
+"
+1739469967904,"VirusTotal response: 48 malicious detections
+"
+1739469967904,"Moving malicious file 1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50.exe (2) to quarantine: quarantine/1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50.exe (2)
+"
+1739469967919,"Error processing file 1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50.exe (2): An error occurred (AccessDenied) when calling the CopyObject operation: Access Denied
+"
+1739469967919,"Processing file: 220c50ccf6a9d9727e9f442df42469f027d9f7a2ea833319971746280023bb0c.exe
+"
+1739469967919,"Downloading file: 220c50ccf6a9d9727e9f442df42469f027d9f7a2ea833319971746280023bb0c.exe from bucket: testing-malware-scan-bucket
+"
+1739469967959,"File hash (SHA256): 220c50ccf6a9d9727e9f442df42469f027d9f7a2ea833319971746280023bb0c
+"
+1739469967959,"Checking hash 220c50ccf6a9d9727e9f442df42469f027d9f7a2ea833319971746280023bb0c against VirusTotal...
+"
+1739469968304,"VirusTotal response: 57 malicious detections
+"
+1739469968305,"Moving malicious file 220c50ccf6a9d9727e9f442df42469f027d9f7a2ea833319971746280023bb0c.exe to quarantine: quarantine/220c50ccf6a9d9727e9f442df42469f027d9f7a2ea833319971746280023bb0c.exe
+"
+1739469968322,"Error processing file 220c50ccf6a9d9727e9f442df42469f027d9f7a2ea833319971746280023bb0c.exe: An error occurred (AccessDenied) when calling the CopyObject operation: Access Denied
+"
+1739469968322,"Processing file: 83ad319279941b4fb21ba7ba1a0558e0770ddc21521665757810ecb0222b8f5a.exe
+"
+1739469968322,"Downloading file: 83ad319279941b4fb21ba7ba1a0558e0770ddc21521665757810ecb0222b8f5a.exe from bucket: testing-malware-scan-bucket
+"
+1739469968364,"File hash (SHA256): 83ad319279941b4fb21ba7ba1a0558e0770ddc21521665757810ecb0222b8f5a
+"
+1739469968364,"Checking hash 83ad319279941b4fb21ba7ba1a0558e0770ddc21521665757810ecb0222b8f5a against VirusTotal...
+"
+1739469968598,"VirusTotal response: 51 malicious detections
+"
+1739469968598,"Moving malicious file 83ad319279941b4fb21ba7ba1a0558e0770ddc21521665757810ecb0222b8f5a.exe to quarantine: quarantine/83ad319279941b4fb21ba7ba1a0558e0770ddc21521665757810ecb0222b8f5a.exe
+"
+1739469968620,"Error processing file 83ad319279941b4fb21ba7ba1a0558e0770ddc21521665757810ecb0222b8f5a.exe: An error occurred (AccessDenied) when calling the CopyObject operation: Access Denied
+"
+1739469968620,"Processing file: 850a2090e3dd9c23f4777035a6e98a4ecbfd305b380c16645cf5d5a48dbd062b.exe
+"
+1739469968620,"Downloading file: 850a2090e3dd9c23f4777035a6e98a4ecbfd305b380c16645cf5d5a48dbd062b.exe from bucket: testing-malware-scan-bucket
+"
+1739469968666,"File hash (SHA256): 850a2090e3dd9c23f4777035a6e98a4ecbfd305b380c16645cf5d5a48dbd062b
+"
+1739469968666,"Checking hash 850a2090e3dd9c23f4777035a6e98a4ecbfd305b380c16645cf5d5a48dbd062b against VirusTotal...
+"
+1739469968869,"VirusTotal response: 50 malicious detections
+"
+1739469968870,"Moving malicious file 850a2090e3dd9c23f4777035a6e98a4ecbfd305b380c16645cf5d5a48dbd062b.exe to quarantine: quarantine/850a2090e3dd9c23f4777035a6e98a4ecbfd305b380c16645cf5d5a48dbd062b.exe
+"
+1739469968886,"Error processing file 850a2090e3dd9c23f4777035a6e98a4ecbfd305b380c16645cf5d5a48dbd062b.exe: An error occurred (AccessDenied) when calling the CopyObject operation: Access Denied
+"
+1739469968886,"Processing file: 8f94159f886da37cbed0ea9b30219e2f4f139d67a7040465e8c76bb6c1b639ba.exe
+"
+1739469968886,"Downloading file: 8f94159f886da37cbed0ea9b30219e2f4f139d67a7040465e8c76bb6c1b639ba.exe from bucket: testing-malware-scan-bucket
+"
+1739469968927,"File hash (SHA256): 8f94159f886da37cbed0ea9b30219e2f4f139d67a7040465e8c76bb6c1b639ba
+"
+1739469968927,"Checking hash 8f94159f886da37cbed0ea9b30219e2f4f139d67a7040465e8c76bb6c1b639ba against VirusTotal...
+"
+1739469969424,"VirusTotal response: 47 malicious detections
+"
+1739469969425,"Moving malicious file 8f94159f886da37cbed0ea9b30219e2f4f139d67a7040465e8c76bb6c1b639ba.exe to quarantine: quarantine/8f94159f886da37cbed0ea9b30219e2f4f139d67a7040465e8c76bb6c1b639ba.exe
+"
+1739469969441,"Error processing file 8f94159f886da37cbed0ea9b30219e2f4f139d67a7040465e8c76bb6c1b639ba.exe: An error occurred (AccessDenied) when calling the CopyObject operation: Access Denied
+"
+1739469969441,"Processing file: b5b2249413d21165cebf03c86e08d9b1e711e4e8617196e9c6f124a1632958fe.exe
+"
+1739469969441,"Downloading file: b5b2249413d21165cebf03c86e08d9b1e711e4e8617196e9c6f124a1632958fe.exe from bucket: testing-malware-scan-bucket
+"
+1739469969485,"File hash (SHA256): b5b2249413d21165cebf03c86e08d9b1e711e4e8617196e9c6f124a1632958fe
+"
+1739469969485,"Checking hash b5b2249413d21165cebf03c86e08d9b1e711e4e8617196e9c6f124a1632958fe against VirusTotal...
+"
+1739469969717,"Error checking VirusTotal: 429
+"
+1739469969717,"Processing file: d98bdf3508763fe0df177ef696f5bf8de7ff7c7dc68bb04a14a95ec28528c3f9.exe
+"
+1739469969717,"Downloading file: d98bdf3508763fe0df177ef696f5bf8de7ff7c7dc68bb04a14a95ec28528c3f9.exe from bucket: testing-malware-scan-bucket
+"
+1739469969762,"File hash (SHA256): d98bdf3508763fe0df177ef696f5bf8de7ff7c7dc68bb04a14a95ec28528c3f9
+"
+1739469969762,"Checking hash d98bdf3508763fe0df177ef696f5bf8de7ff7c7dc68bb04a14a95ec28528c3f9 against VirusTotal...
+"
+1739469969920,"Error checking VirusTotal: 429
+"
+1739469969921,"Processing file: df90e36ead46dcff6b6235a71ef05f6ca52250f432ddb46a4a0b8b9142660ba3.exe
+"
+1739469969921,"Downloading file: df90e36ead46dcff6b6235a71ef05f6ca52250f432ddb46a4a0b8b9142660ba3.exe from bucket: testing-malware-scan-bucket
+"
+1739469969952,"File hash (SHA256): df90e36ead46dcff6b6235a71ef05f6ca52250f432ddb46a4a0b8b9142660ba3
+"
+1739469969952,"Checking hash df90e36ead46dcff6b6235a71ef05f6ca52250f432ddb46a4a0b8b9142660ba3 against VirusTotal...
+"
+1739469970093,"Error checking VirusTotal: 429
+"
+1739469970093,"Processing file: e2b03931b8adf597caceb14e8b3016586fc91e296d34b2395ed2da140a9b6343.exe
+"
+1739469970093,"Downloading file: e2b03931b8adf597caceb14e8b3016586fc91e296d34b2395ed2da140a9b6343.exe from bucket: testing-malware-scan-bucket
+"
+1739469970139,"File hash (SHA256): e2b03931b8adf597caceb14e8b3016586fc91e296d34b2395ed2da140a9b6343
+"
+1739469970139,"Checking hash e2b03931b8adf597caceb14e8b3016586fc91e296d34b2395ed2da140a9b6343 against VirusTotal...
+"
+1739469970404,"Error checking VirusTotal: 429
+"
+1739469970404,"Processing file: e58b80e4738dc03f5aa82d3a40a6d2ace0d7c7cfd651f1dd10df76d43d8c0eb3.exe
+"
+1739469970404,"Downloading file: e58b80e4738dc03f5aa82d3a40a6d2ace0d7c7cfd651f1dd10df76d43d8c0eb3.exe from bucket: testing-malware-scan-bucket
+"
+1739469970443,"File hash (SHA256): e58b80e4738dc03f5aa82d3a40a6d2ace0d7c7cfd651f1dd10df76d43d8c0eb3
+"
+1739469970443,"Checking hash e58b80e4738dc03f5aa82d3a40a6d2ace0d7c7cfd651f1dd10df76d43d8c0eb3 against VirusTotal...
+"
+1739469970588,"Error checking VirusTotal: 429
+"
+1739469970588,"Scan completed.
+"
+1739469970588,"Lambda result: {'120816daada4aeb05da2ee888fe52f25c37b7aba3915da8534904b8247c8526b.exe': 'Error processing file: An error occurred (AccessDenied) when calling the CopyObject operation: Access Denied', '1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50.exe': 'Error processing file: An error occurred (AccessDenied) when calling the CopyObject operation: Access Denied', '1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50.exe (2)': 'Error processing file: An error occurred (AccessDenied) when calling the CopyObject operation: Access Denied', '220c50ccf6a9d9727e9f442df42469f027d9f7a2ea833319971746280023bb0c.exe': 'Error processing file: An error occurred (AccessDenied) when calling the CopyObject operation: Access Denied', '83ad319279941b4fb21ba7ba1a0558e0770ddc21521665757810ecb0222b8f5a.exe': 'Error processing file: An error occurred (AccessDenied) when calling the CopyObject operation: Access Denied', '850a2090e3dd9c23f4777035a6e98a4ecbfd305b380c16645cf5d5a48dbd062b.exe': 'Error processing file: An error occurred (AccessDenied) when calling the CopyObject operation: Access Denied', '8f94159f886da37cbed0ea9b30219e2f4f139d67a7040465e8c76bb6c1b639ba.exe': 'Error processing file: An error occurred (AccessDenied) when calling the CopyObject operation: Access Denied', 'b5b2249413d21165cebf03c86e08d9b1e711e4e8617196e9c6f124a1632958fe.exe': 'File is clean.', 'd98bdf3508763fe0df177ef696f5bf8de7ff7c7dc68bb04a14a95ec28528c3f9.exe': 'File is clean.', 'df90e36ead46dcff6b6235a71ef05f6ca52250f432ddb46a4a0b8b9142660ba3.exe': 'File is clean.', 'e2b03931b8adf597caceb14e8b3016586fc91e296d34b2395ed2da140a9b6343.exe': 'File is clean.', 'e58b80e4738dc03f5aa82d3a40a6d2ace0d7c7cfd651f1dd10df76d43d8c0eb3.exe': 'File is clean.'}
+"
+1739469973434,"START RequestId: cb2e82c4-031a-439f-adde-4f9bc9f57e3d Version: $LATEST
+"
+1739469973435,"Starting malware scan on bucket: testing-malware-scan-bucket
+"
+1739469973435,"Processing all files in bucket: testing-malware-scan-bucket
+"
+1739469973435,"Listing files in bucket: testing-malware-scan-bucket
+"
+1739469973452,"Files in bucket: ['120816daada4aeb05da2ee888fe52f25c37b7aba3915da8534904b8247c8526b.exe', '1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50.exe', '1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50.exe (2)', '220c50ccf6a9d9727e9f442df42469f027d9f7a2ea833319971746280023bb0c.exe', '83ad319279941b4fb21ba7ba1a0558e0770ddc21521665757810ecb0222b8f5a.exe', '850a2090e3dd9c23f4777035a6e98a4ecbfd305b380c16645cf5d5a48dbd062b.exe', '8f94159f886da37cbed0ea9b30219e2f4f139d67a7040465e8c76bb6c1b639ba.exe', 'b5b2249413d21165cebf03c86e08d9b1e711e4e8617196e9c6f124a1632958fe.exe', 'd98bdf3508763fe0df177ef696f5bf8de7ff7c7dc68bb04a14a95ec28528c3f9.exe', 'df90e36ead46dcff6b6235a71ef05f6ca52250f432ddb46a4a0b8b9142660ba3.exe', 'e2b03931b8adf597caceb14e8b3016586fc91e296d34b2395ed2da140a9b6343.exe', 'e58b80e4738dc03f5aa82d3a40a6d2ace0d7c7cfd651f1dd10df76d43d8c0eb3.exe']
+"
+1739469973452,"Processing file: 120816daada4aeb05da2ee888fe52f25c37b7aba3915da8534904b8247c8526b.exe
+"
+1739469973452,"Downloading file: 120816daada4aeb05da2ee888fe52f25c37b7aba3915da8534904b8247c8526b.exe from bucket: testing-malware-scan-bucket
+"
+1739469973618,"File hash (SHA256): 120816daada4aeb05da2ee888fe52f25c37b7aba3915da8534904b8247c8526b
+"
+1739469973618,"Checking hash 120816daada4aeb05da2ee888fe52f25c37b7aba3915da8534904b8247c8526b against VirusTotal...
+"
+1739469973835,"Error checking VirusTotal: 429
+"
+1739469973835,"Processing file: 1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50.exe
+"
+1739469973835,"Downloading file: 1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50.exe from bucket: testing-malware-scan-bucket
+"
+1739469973979,"File hash (SHA256): 1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50
+"
+1739469973979,"Checking hash 1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50 against VirusTotal...
+"
+1739469974299,"Error checking VirusTotal: 429
+"
+1739469974299,"Processing file: 1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50.exe (2)
+"
+1739469974299,"Downloading file: 1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50.exe (2) from bucket: testing-malware-scan-bucket
+"
+1739469974460,"File hash (SHA256): 1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50
+"
+1739469974460,"Checking hash 1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50 against VirusTotal...
+"
+1739469974649,"Error checking VirusTotal: 429
+"
+1739469974649,"Processing file: 220c50ccf6a9d9727e9f442df42469f027d9f7a2ea833319971746280023bb0c.exe
+"
+1739469974649,"Downloading file: 220c50ccf6a9d9727e9f442df42469f027d9f7a2ea833319971746280023bb0c.exe from bucket: testing-malware-scan-bucket
+"
+1739469974778,"File hash (SHA256): 220c50ccf6a9d9727e9f442df42469f027d9f7a2ea833319971746280023bb0c
+"
+1739469974778,"Checking hash 220c50ccf6a9d9727e9f442df42469f027d9f7a2ea833319971746280023bb0c against VirusTotal...
+"
+1739469975033,"Error checking VirusTotal: 429
+"
+1739469975033,"Processing file: 83ad319279941b4fb21ba7ba1a0558e0770ddc21521665757810ecb0222b8f5a.exe
+"
+1739469975033,"Downloading file: 83ad319279941b4fb21ba7ba1a0558e0770ddc21521665757810ecb0222b8f5a.exe from bucket: testing-malware-scan-bucket
+"
+1739469975158,"File hash (SHA256): 83ad319279941b4fb21ba7ba1a0558e0770ddc21521665757810ecb0222b8f5a
+"
+1739469975158,"Checking hash 83ad319279941b4fb21ba7ba1a0558e0770ddc21521665757810ecb0222b8f5a against VirusTotal...
+"
+1739469975340,"Error checking VirusTotal: 429
+"
+1739469975341,"Processing file: 850a2090e3dd9c23f4777035a6e98a4ecbfd305b380c16645cf5d5a48dbd062b.exe
+"
+1739469975341,"Downloading file: 850a2090e3dd9c23f4777035a6e98a4ecbfd305b380c16645cf5d5a48dbd062b.exe from bucket: testing-malware-scan-bucket
+"
+1739469975498,"File hash (SHA256): 850a2090e3dd9c23f4777035a6e98a4ecbfd305b380c16645cf5d5a48dbd062b
+"
+1739469975498,"Checking hash 850a2090e3dd9c23f4777035a6e98a4ecbfd305b380c16645cf5d5a48dbd062b against VirusTotal...
+"
+1739469975625,"Error checking VirusTotal: 429
+"
+1739469975625,"Processing file: 8f94159f886da37cbed0ea9b30219e2f4f139d67a7040465e8c76bb6c1b639ba.exe
+"
+1739469975625,"Downloading file: 8f94159f886da37cbed0ea9b30219e2f4f139d67a7040465e8c76bb6c1b639ba.exe from bucket: testing-malware-scan-bucket
+"
+1739469975758,"File hash (SHA256): 8f94159f886da37cbed0ea9b30219e2f4f139d67a7040465e8c76bb6c1b639ba
+"
+1739469975758,"Checking hash 8f94159f886da37cbed0ea9b30219e2f4f139d67a7040465e8c76bb6c1b639ba against VirusTotal...
+"
+1739469975921,"Error checking VirusTotal: 429
+"
+1739469975921,"Processing file: b5b2249413d21165cebf03c86e08d9b1e711e4e8617196e9c6f124a1632958fe.exe
+"
+1739469975921,"Downloading file: b5b2249413d21165cebf03c86e08d9b1e711e4e8617196e9c6f124a1632958fe.exe from bucket: testing-malware-scan-bucket
+"
+1739469976077,"File hash (SHA256): b5b2249413d21165cebf03c86e08d9b1e711e4e8617196e9c6f124a1632958fe
+"
+1739469976077,"Checking hash b5b2249413d21165cebf03c86e08d9b1e711e4e8617196e9c6f124a1632958fe against VirusTotal...
+"
+1739469976260,"Error checking VirusTotal: 429
+"
+1739469976260,"Processing file: d98bdf3508763fe0df177ef696f5bf8de7ff7c7dc68bb04a14a95ec28528c3f9.exe
+"
+1739469976260,"Downloading file: d98bdf3508763fe0df177ef696f5bf8de7ff7c7dc68bb04a14a95ec28528c3f9.exe from bucket: testing-malware-scan-bucket
+"
+1739469976398,"File hash (SHA256): d98bdf3508763fe0df177ef696f5bf8de7ff7c7dc68bb04a14a95ec28528c3f9
+"
+1739469976398,"Checking hash d98bdf3508763fe0df177ef696f5bf8de7ff7c7dc68bb04a14a95ec28528c3f9 against VirusTotal...
+"
+1739469976459,"2025-02-13T18:06:16.459Z cb2e82c4-031a-439f-adde-4f9bc9f57e3d Task timed out after 3.02 seconds
+
+"
+1739469976459,"END RequestId: cb2e82c4-031a-439f-adde-4f9bc9f57e3d
+"
+1739469976459,"REPORT RequestId: cb2e82c4-031a-439f-adde-4f9bc9f57e3d	Duration: 3024.59 ms	Billed Duration: 3000 ms	Memory Size: 128 MB	Max Memory Used: 47 MB	
+"
+1739469976493,"INIT_START Runtime Version: python:3.9.v64	Runtime Version ARN: arn:aws:lambda:us-east-2::runtime:57e9dce4a928fd5b7bc1015238a5bc8a9146f096d69571fa4219ed8a2e76bfdf
+"
+1739469976973,"Running test Lambda function...
+"
+1739469976973,"Starting malware scan on bucket: testing-malware-scan-bucket
+"
+1739469976973,"Processing all files in bucket: testing-malware-scan-bucket
+"
+1739469976973,"Listing files in bucket: testing-malware-scan-bucket
+"
+1739469977024,"Files in bucket: ['120816daada4aeb05da2ee888fe52f25c37b7aba3915da8534904b8247c8526b.exe', '1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50.exe', '1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50.exe (2)', '220c50ccf6a9d9727e9f442df42469f027d9f7a2ea833319971746280023bb0c.exe', '83ad319279941b4fb21ba7ba1a0558e0770ddc21521665757810ecb0222b8f5a.exe', '850a2090e3dd9c23f4777035a6e98a4ecbfd305b380c16645cf5d5a48dbd062b.exe', '8f94159f886da37cbed0ea9b30219e2f4f139d67a7040465e8c76bb6c1b639ba.exe', 'b5b2249413d21165cebf03c86e08d9b1e711e4e8617196e9c6f124a1632958fe.exe', 'd98bdf3508763fe0df177ef696f5bf8de7ff7c7dc68bb04a14a95ec28528c3f9.exe', 'df90e36ead46dcff6b6235a71ef05f6ca52250f432ddb46a4a0b8b9142660ba3.exe', 'e2b03931b8adf597caceb14e8b3016586fc91e296d34b2395ed2da140a9b6343.exe', 'e58b80e4738dc03f5aa82d3a40a6d2ace0d7c7cfd651f1dd10df76d43d8c0eb3.exe']
+"
+1739469977024,"Processing file: 120816daada4aeb05da2ee888fe52f25c37b7aba3915da8534904b8247c8526b.exe
+"
+1739469977024,"Downloading file: 120816daada4aeb05da2ee888fe52f25c37b7aba3915da8534904b8247c8526b.exe from bucket: testing-malware-scan-bucket
+"
+1739469977092,"File hash (SHA256): 120816daada4aeb05da2ee888fe52f25c37b7aba3915da8534904b8247c8526b
+"
+1739469977092,"Checking hash 120816daada4aeb05da2ee888fe52f25c37b7aba3915da8534904b8247c8526b against VirusTotal...
+"
+1739469977368,"Error checking VirusTotal: 429
+"
+1739469977368,"Processing file: 1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50.exe
+"
+1739469977368,"Downloading file: 1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50.exe from bucket: testing-malware-scan-bucket
+"
+1739469977405,"File hash (SHA256): 1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50
+"
+1739469977405,"Checking hash 1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50 against VirusTotal...
+"
+1739469977579,"Error checking VirusTotal: 429
+"
+1739469977579,"Processing file: 1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50.exe (2)
+"
+1739469977579,"Downloading file: 1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50.exe (2) from bucket: testing-malware-scan-bucket
+"
+1739469977624,"File hash (SHA256): 1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50
+"
+1739469977624,"Checking hash 1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50 against VirusTotal...
+"
+1739469977763,"Error checking VirusTotal: 429
+"
+1739469977763,"Processing file: 220c50ccf6a9d9727e9f442df42469f027d9f7a2ea833319971746280023bb0c.exe
+"
+1739469977763,"Downloading file: 220c50ccf6a9d9727e9f442df42469f027d9f7a2ea833319971746280023bb0c.exe from bucket: testing-malware-scan-bucket
+"
+1739469977795,"File hash (SHA256): 220c50ccf6a9d9727e9f442df42469f027d9f7a2ea833319971746280023bb0c
+"
+1739469977795,"Checking hash 220c50ccf6a9d9727e9f442df42469f027d9f7a2ea833319971746280023bb0c against VirusTotal...
+"
+1739469977933,"Error checking VirusTotal: 429
+"
+1739469977933,"Processing file: 83ad319279941b4fb21ba7ba1a0558e0770ddc21521665757810ecb0222b8f5a.exe
+"
+1739469977933,"Downloading file: 83ad319279941b4fb21ba7ba1a0558e0770ddc21521665757810ecb0222b8f5a.exe from bucket: testing-malware-scan-bucket
+"
+1739469977975,"File hash (SHA256): 83ad319279941b4fb21ba7ba1a0558e0770ddc21521665757810ecb0222b8f5a
+"
+1739469977975,"Checking hash 83ad319279941b4fb21ba7ba1a0558e0770ddc21521665757810ecb0222b8f5a against VirusTotal...
+"
+1739469978167,"Error checking VirusTotal: 429
+"
+1739469978167,"Processing file: 850a2090e3dd9c23f4777035a6e98a4ecbfd305b380c16645cf5d5a48dbd062b.exe
+"
+1739469978167,"Downloading file: 850a2090e3dd9c23f4777035a6e98a4ecbfd305b380c16645cf5d5a48dbd062b.exe from bucket: testing-malware-scan-bucket
+"
+1739469978201,"File hash (SHA256): 850a2090e3dd9c23f4777035a6e98a4ecbfd305b380c16645cf5d5a48dbd062b
+"
+1739469978201,"Checking hash 850a2090e3dd9c23f4777035a6e98a4ecbfd305b380c16645cf5d5a48dbd062b against VirusTotal...
+"
+1739469978341,"Error checking VirusTotal: 429
+"
+1739469978341,"Processing file: 8f94159f886da37cbed0ea9b30219e2f4f139d67a7040465e8c76bb6c1b639ba.exe
+"
+1739469978341,"Downloading file: 8f94159f886da37cbed0ea9b30219e2f4f139d67a7040465e8c76bb6c1b639ba.exe from bucket: testing-malware-scan-bucket
+"
+1739469978377,"File hash (SHA256): 8f94159f886da37cbed0ea9b30219e2f4f139d67a7040465e8c76bb6c1b639ba
+"
+1739469978377,"Checking hash 8f94159f886da37cbed0ea9b30219e2f4f139d67a7040465e8c76bb6c1b639ba against VirusTotal...
+"
+1739469978525,"Error checking VirusTotal: 429
+"
+1739469978526,"Processing file: b5b2249413d21165cebf03c86e08d9b1e711e4e8617196e9c6f124a1632958fe.exe
+"
+1739469978526,"Downloading file: b5b2249413d21165cebf03c86e08d9b1e711e4e8617196e9c6f124a1632958fe.exe from bucket: testing-malware-scan-bucket
+"
+1739469978567,"File hash (SHA256): b5b2249413d21165cebf03c86e08d9b1e711e4e8617196e9c6f124a1632958fe
+"
+1739469978567,"Checking hash b5b2249413d21165cebf03c86e08d9b1e711e4e8617196e9c6f124a1632958fe against VirusTotal...
+"
+1739469978712,"Error checking VirusTotal: 429
+"
+1739469978712,"Processing file: d98bdf3508763fe0df177ef696f5bf8de7ff7c7dc68bb04a14a95ec28528c3f9.exe
+"
+1739469978712,"Downloading file: d98bdf3508763fe0df177ef696f5bf8de7ff7c7dc68bb04a14a95ec28528c3f9.exe from bucket: testing-malware-scan-bucket
+"
+1739469978747,"File hash (SHA256): d98bdf3508763fe0df177ef696f5bf8de7ff7c7dc68bb04a14a95ec28528c3f9
+"
+1739469978747,"Checking hash d98bdf3508763fe0df177ef696f5bf8de7ff7c7dc68bb04a14a95ec28528c3f9 against VirusTotal...
+"
+1739469978879,"Error checking VirusTotal: 429
+"
+1739469978880,"Processing file: df90e36ead46dcff6b6235a71ef05f6ca52250f432ddb46a4a0b8b9142660ba3.exe
+"
+1739469978880,"Downloading file: df90e36ead46dcff6b6235a71ef05f6ca52250f432ddb46a4a0b8b9142660ba3.exe from bucket: testing-malware-scan-bucket
+"
+1739469978921,"File hash (SHA256): df90e36ead46dcff6b6235a71ef05f6ca52250f432ddb46a4a0b8b9142660ba3
+"
+1739469978921,"Checking hash df90e36ead46dcff6b6235a71ef05f6ca52250f432ddb46a4a0b8b9142660ba3 against VirusTotal...
+"
+1739469979088,"Error checking VirusTotal: 429
+"
+1739469979088,"Processing file: e2b03931b8adf597caceb14e8b3016586fc91e296d34b2395ed2da140a9b6343.exe
+"
+1739469979088,"Downloading file: e2b03931b8adf597caceb14e8b3016586fc91e296d34b2395ed2da140a9b6343.exe from bucket: testing-malware-scan-bucket
+"
+1739469979123,"File hash (SHA256): e2b03931b8adf597caceb14e8b3016586fc91e296d34b2395ed2da140a9b6343
+"
+1739469979123,"Checking hash e2b03931b8adf597caceb14e8b3016586fc91e296d34b2395ed2da140a9b6343 against VirusTotal...
+"
+1739469979268,"Error checking VirusTotal: 429
+"
+1739469979268,"Processing file: e58b80e4738dc03f5aa82d3a40a6d2ace0d7c7cfd651f1dd10df76d43d8c0eb3.exe
+"
+1739469979268,"Downloading file: e58b80e4738dc03f5aa82d3a40a6d2ace0d7c7cfd651f1dd10df76d43d8c0eb3.exe from bucket: testing-malware-scan-bucket
+"
+1739469979314,"File hash (SHA256): e58b80e4738dc03f5aa82d3a40a6d2ace0d7c7cfd651f1dd10df76d43d8c0eb3
+"
+1739469979314,"Checking hash e58b80e4738dc03f5aa82d3a40a6d2ace0d7c7cfd651f1dd10df76d43d8c0eb3 against VirusTotal...
+"
+1739469979459,"Error checking VirusTotal: 429
+"
+1739469979459,"Scan completed.
+"
+1739469979459,"Lambda result: {'120816daada4aeb05da2ee888fe52f25c37b7aba3915da8534904b8247c8526b.exe': 'File is clean.', '1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50.exe': 'File is clean.', '1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50.exe (2)': 'File is clean.', '220c50ccf6a9d9727e9f442df42469f027d9f7a2ea833319971746280023bb0c.exe': 'File is clean.', '83ad319279941b4fb21ba7ba1a0558e0770ddc21521665757810ecb0222b8f5a.exe': 'File is clean.', '850a2090e3dd9c23f4777035a6e98a4ecbfd305b380c16645cf5d5a48dbd062b.exe': 'File is clean.', '8f94159f886da37cbed0ea9b30219e2f4f139d67a7040465e8c76bb6c1b639ba.exe': 'File is clean.', 'b5b2249413d21165cebf03c86e08d9b1e711e4e8617196e9c6f124a1632958fe.exe': 'File is clean.', 'd98bdf3508763fe0df177ef696f5bf8de7ff7c7dc68bb04a14a95ec28528c3f9.exe': 'File is clean.', 'df90e36ead46dcff6b6235a71ef05f6ca52250f432ddb46a4a0b8b9142660ba3.exe': 'File is clean.', 'e2b03931b8adf597caceb14e8b3016586fc91e296d34b2395ed2da140a9b6343.exe': 'File is clean.', 'e58b80e4738dc03f5aa82d3a40a6d2ace0d7c7cfd651f1dd10df76d43d8c0eb3.exe': 'File is clean.'}
+"
